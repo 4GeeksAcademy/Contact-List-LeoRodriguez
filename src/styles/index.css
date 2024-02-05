@@ -1,3 +1,73 @@
-/* 
-    General Styles
-*/
+body{
+    background-color: #99BC85;
+    color: white;
+  
+  }
+  .navbar{
+    background-color:  #BFD8AF;
+  }
+  .navbar-brand{
+    text-decoration: none;
+    color: #E1F0DA;
+    margin-left: 15px;
+  }
+  .btn{
+    background-color: #BFD8AF;
+    /* box-shadow: 2px 2px 5px 4px rgba(100, 100, 100, 0.692); */
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: white;
+    margin-left: 10px;
+  }
+  
+  /*  Card contact */
+  .contact-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+    border: 1px solid #E1F0DA;
+    background-color: #BFD8AF;
+    position: relative;
+  }
+  
+  .icons {
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    gap: 10px;
+  }
+    
+  .icon{
+   color: white;
+  }
+  .circle-image {
+    overflow: hidden;
+    width: 120px;
+    height: 120px;
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+  
+  .circle-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .contact-info {
+    margin-top: 10px;
+    font-family: 'Arial', sans-serif;
+  }
+  .icon:hover{
+    cursor: pointer;
+    color: #E1F0DA;
+  }
+
+  .saveContactBtn{
+    background-color: #BFD8AF;
+  }

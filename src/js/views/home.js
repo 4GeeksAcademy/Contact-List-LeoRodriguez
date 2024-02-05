@@ -31,7 +31,7 @@ export const Home = () => {
 			{store.contacts.length > 0 ? (store.contacts.map((contact, index) => {
 					return <CardContact key={index} contact={contact} />
 })
-			): (<p>There is no Contacts.</p>)}
+			): (<p>No hay contactos.</p>)}
 				
 			</div>
 	</div>

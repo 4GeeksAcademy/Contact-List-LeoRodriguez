@@ -62,7 +62,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 
 			 },
 			 getAllContacts: () => {
-				fetch('https://playground.4geeks.com/apis/fake/contact/agenda/agustinagonzalez')
+				fetch('https://playground.4geeks.com/apis/fake/contact/agenda/leorodriguez')
 					.then((response) => {
 						if (response.ok) {
 							console.log("contactos obtenidos");
@@ -116,7 +116,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 			  },
 			deleteAllContacts: async () => {
 				try {
-					const response = await fetch('https://playground.4geeks.com/apis/fake/contact/agenda/agustinagonzalez', {
+					const response = await fetch('https://playground.4geeks.com/apis/fake/contact/agenda/leorodriguez', {
 						method: 'DELETE'
 					});
 			

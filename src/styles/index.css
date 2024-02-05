@@ -7,9 +7,13 @@ body{
     background-color:  #BFD8AF;
   }
   .navbar-brand{
-    text-decoration: none;
     color: #E1F0DA;
     margin-left: 15px;
+  }
+
+  .LinkBrand{
+    text-decoration: none;
+
   }
   .btn{
     background-color: #BFD8AF;
